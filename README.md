@@ -17,7 +17,6 @@ The application enables users to enter inputs into a inquirer prompt in order to
 ## The Challenge:
 Build a Node.js command-line application that takes in user inputs to generates a SVG logo and saves it as "logo.svg" file. In addition, create a walkthrough video that demonstrates its functionality and the passing of all of the tests.
 
-
 ## User Story
 ```md
 AS a freelance web developer
@@ -53,10 +52,8 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 7. (Optional) Regarding future use, you may alter the prompted questions within the index.js to best suit your needs.
 8. (Optional) The SVG Logo Maker serves as a foundation so you are not limited to altering the files (as you have my permission) to create the best possible "logo.svg" file.
 
-## Solution URL:
 
-
-##  Walkthrough Video:
+##  Screenshot  Video:
 
 
 ## Screenshots:
@@ -84,4 +81,6 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 - Inquirer.js: [Version 8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4)
 - License Badge: [Shields.io](https://shields.io/)
 - Visual Studio Code: [Website](https://code.visualstudio.com/)
+
+
 
