@@ -1,8 +1,25 @@
-
 // Import required modules
 const filesystem = require('fs'); 
 const inquirer = require('inquirer');
 const { Circle, Square, Triangle } = require('./lib/shapes');
+const svg = require('./svg.js');
+
+// Inside the try block of your `init` function
+svg.textElement = draw.text(answers.text).move(50, 150);
+if (answers.shapeType === 'circle') {
+  svg.shapeElement = draw.circle(100).move(50, 50).fill(answers.shapeColor);
+} else if (answers.shapeType === 'square') {
+  svg.shapeElement = draw.rect(150, 100).move(50, 50).fill(answers.shapeColor);
+} else if (answers.shapeType === 'triangle') {
+  svg.shapeElement = draw.polygon('50,150 150,150 100,50').fill(answers.shapeColor);
+}
+
+const svgContent = svg.render();
+
+// Write the SVG content to a file
+filesystem.writeFileSync(svgFile, svgContent, 'utf-8');
+
+
 
 // Define a class for SVG content
 class Svg {
@@ -74,7 +91,7 @@ async function init() {
 
     draw.text(answers.text).move(50, 150);
 
-    const svgContent = draw.svg(); // Get the SVG content as a string
+    const svgContent = draw.svg(); 
 
     // Write the SVG content to a file
     fs.writeFileSync(svgFile, svgContent, 'utf-8');
