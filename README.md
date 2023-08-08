@@ -8,8 +8,6 @@ The application enables users to enter inputs into a inquirer prompt in order to
 - [The Challenge](#The-Challenge)
 - [Usage Information](#Usage-Information)
 - [Installation Process](#Installation-Process)
-- [Built With](#Built-With)
-
 
 
 # Overview
@@ -70,19 +68,14 @@ Most information came from class notes, stackflow and W3
 1. Clone the repository: 
 2. Install the following: 
 - Node.JS [Version 18.17.0](https://nodejs.org/en/blog/release/v18.17.0/)
+<<<<<<< HEAD
 - Jest [Version 29.4.3](https://www.npmjs.com/package/jest)
 - Inquirer.js: [Version 8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4)
+=======
+- Jest [Version 29.4.2](https://www.npmjs.com/package/jest)
+- Inquirer.js: [Version 9.2.10](https://www.npmjs.com/package/inquirer/v/9.2.10)
+>>>>>>> f20c6114afe8222281c8e448401896d9cb92d92e
 3. Open the cloned repository in any source code editor.
 4. Open the integrated terminal for the document and complete the respective installation guides provided above in section (2.) to ensure the cloned documentation will operate.
-
-## Built With
-- Saiyan Pride
-- Dynamic JavaScript
-- Node.js [Version 16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
-- Jest [Version 29.4.3](https://www.npmjs.com/package/jest)
-- Inquirer.js: [Version 8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4)
-- License Badge: [Shields.io](https://shields.io/)
-- Visual Studio Code: [Website](https://code.visualstudio.com/)
-
 
 
