@@ -43,17 +43,19 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ```
 
 ## Usage Instructions
+Most information came from class notes, stackflow and W3
 1. Open the cloned repository in any source code editor e.g. Visual Studio Code.
-2. Open integrated terminal on index.js
-3. Enter “node index.js” in the command line
-4. Through sequential order within the command line interface - the user will be presented with npm inquirer questions - the user will provide a response to each question and proceed.
-5. Once completed a SVG file named "logo.svg" will be created.
-6. At your discretion, you may rename the "logo.svg" file to the file name of your choice.
-7. (Optional) Regarding future use, you may alter the prompted questions within the index.js to best suit your needs.
-8. (Optional) The SVG Logo Maker serves as a foundation so you are not limited to altering the files (as you have my permission) to create the best possible "logo.svg" file.
+2. Initialize Node.js Project: npm init
+3. Install Dependencies:npm install inquirer svg.js  
+4. Open integrated terminal on index.js
+5. Enter “node index.js” in the command line
+6. Through sequential order within the command line interface - the user will be presented with npm inquirer questions - the user will provide a response to each question and proceed.
+7. Once completed a SVG file named "logo.svg" will be created.
+8. At your discretion, you may rename the "logo.svg" file to the file name of your choice.
 
 
-##  Screenshot  Video:
+
+ ##  Screenshot  Video:
 
 
 ## Screenshots:
@@ -67,7 +69,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ## Installation Process
 1. Clone the repository: 
 2. Install the following: 
-- Node.JS [Version 16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
+- Node.JS [Version 18.17.0](https://nodejs.org/en/blog/release/v18.17.0/)
 - Jest [Version 29.4.3](https://www.npmjs.com/package/jest)
 - Inquirer.js: [Version 8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4)
 3. Open the cloned repository in any source code editor.
