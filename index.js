@@ -1,8 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const SVG = require('svg.js');
 
-class Svg {
+class svg {
   constructor() {
     this.textElement = '';
     this.shapeElement = '';
@@ -27,10 +26,10 @@ async function init() {
     const answers = await inquirer.prompt(questions);
 
     // Create an instance of Svg class using 'new'
-    const svgInstance = new Svg();
+    const svgInstance = new svg();
 
     // Initialize the SVG.js drawing canvas
-    const draw = SVG().size(300, 200);
+    const draw = svg().size(300, 200);
 
     if (answers.shapeType === 'circle') {
       svgInstance.shapeElement = draw.circle(100).move(50, 50).fill(answers.shapeColor);
@@ -75,4 +74,5 @@ const questions = [
   },
 ];
 
+// Call the async function to start the program
 init();

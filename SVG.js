@@ -1,4 +1,4 @@
-const draw = new SVG().size(300, 200); 
+const draw = new svg().size(300, 200); 
 if (answers.shape === 'circle') {
   draw.circle(100).move(50, 50).fill(answers.color); 
 } else if (answers.shape === 'square') {
