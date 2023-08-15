@@ -1,8 +1,23 @@
 {
   "dependencies": {
-    "inquirer": "^8.2.6",
-    "jest": "^29.6.2",
-    "svg.js": "^2.7.1",
-    "svgdom": "^0.1.14"
-  }
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.4",
+    "validate-color": "^2.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "name": "robbi-object-oriented-programming-challenge-svg-logo-maker",
+  "description": "## Description: The application enables users to enter inputs into a inquirer prompt in order to generate a logo \"logo.svg\" file which contains the users desired results as an SVG image.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
