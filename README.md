@@ -58,11 +58,15 @@ https://drive.google.com/file/d/1xAj09WRRPF-byGXxR6DMhvHXWaILB_Vu/view
 
 ## Screenshots:
 ### Figure 1. Command line application
+<img width="905" alt="nodeindexjsscreenshot" src="https://github.com/robbi19/Object-oriented-Programming-Challenge-SVG-Logo-Maker/assets/128949831/aa4e4ced-60ec-43f5-a767-989002850582">
 
 ### Figure 2. Jest Testing "npm test"
+<img width="914" alt="npmtestpassed" src="https://github.com/robbi19/Object-oriented-Programming-Challenge-SVG-Logo-Maker/assets/128949831/10bcda6a-7ccf-4991-bb04-72d05c689dd4">
 
 
 ### Figure 3. Generated "logo.svg" file
+<img width="182" alt="Screenshot 2023-08-15 123831" src="https://github.com/robbi19/Object-oriented-Programming-Challenge-SVG-Logo-Maker/assets/128949831/9c9819e1-02ed-4782-aea3-b253365a88f4">
+
 
 
 ## Installation Process
